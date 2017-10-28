@@ -9,7 +9,7 @@
 import Foundation
 import RealmSwift
 
-class User: Object {
+class User: Object, Codable {
     @objc dynamic var id = 0
     @objc dynamic var name = ""
     @objc dynamic var icon = ""
@@ -17,5 +17,7 @@ class User: Object {
     override static func primaryKey() -> String? {
         return "id"
     }
+    
+    
 }
 

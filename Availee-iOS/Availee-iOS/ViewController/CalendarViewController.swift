@@ -12,9 +12,11 @@ import Koyomi
 class CalendarViewController: UIViewController {
     @IBOutlet weak var koyomi: Koyomi!
     
+    let model = CalendarModel()
     override func viewDidLoad() {
         super.viewDidLoad()
         koyomiSetup()
+        showEvent()
         // Do any additional setup after loading the view.
     }
 
@@ -26,14 +28,18 @@ class CalendarViewController: UIViewController {
     func koyomiSetup() {
 
         koyomi.calendarDelegate = self
-        let today = Date()
-        
         koyomi.dayPosition = .topLeft
         koyomi.selectionMode = .multiple(style: .line)
         koyomi.holidayColor = (.black,.black) // = (saturday: UIColor.black, sunday: UIColor.black)
         koyomi.lineView.height = 10
         koyomi.lineView.position = .bottom
         
+    }
+    
+    func showEvent(){
+        model.readEventsFromAppleCalendar {
+            koyomi.select(dates: model.allStartDates ?? [])
+        }
     }
     
     
