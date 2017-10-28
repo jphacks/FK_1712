@@ -1,5 +1,5 @@
 //
-//  Calendar.swift
+//  UserModel.swift
 //  Availee-iOS
 //
 //  Created by maekawakazuma on 2017/10/28.
@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import RealmSwift
+
+class UserModel {
+    var users : Results<User>?
+    
+}
