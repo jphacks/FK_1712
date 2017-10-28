@@ -6,7 +6,8 @@ import (
 
 type (
 	FriendsJSON struct {
-		FollowID int `json:"follow_id"`
-		FollowerID int `json:"follower_id"`
+		FollowID int `db:"follow_id" json:"follow_id"`
+		FollowerID int `db:"follower_id" json:"follower_id"`
 	}
+
 )

@@ -12,12 +12,12 @@ type (
 	}
 
 	FreeTime struct {
-		StartTime string `json:"start_time"`
-		EndTime string `json:"end_time"`
+		StartTime string `db:"start_time" json:"start_time"`
+		EndTime string `db:"end_time" json:"end_time"`
 	}
 
 	FreeDate struct {
-		StartDate string `json:"start_date"`
-		EndDate string `json:"end_date"`
+		StartDate string `db:"start_date" json:"start_date"`
+		EndDate string `db:"end_date" json:"end_date"`
 	}
 )
