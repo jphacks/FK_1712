@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Koyomi
 
 class CalendarViewController: UIViewController {
-
+    @IBOutlet weak var koyomi: Koyomi!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        koyomiSetup()
         // Do any additional setup after loading the view.
     }
 
@@ -20,6 +22,10 @@ class CalendarViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func koyomiSetup() {
+        koyomi.dayPosition = .topLeft
+    }
+  
     
 
     /*
@@ -33,3 +39,5 @@ class CalendarViewController: UIViewController {
     */
 
 }
+
+
