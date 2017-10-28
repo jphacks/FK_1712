@@ -14,6 +14,11 @@
 		A49033AF1FA40AC2007EA206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49033AD1FA40AC2007EA206 /* LaunchScreen.storyboard */; };
 		A49033BA1FA40AC2007EA206 /* Availee_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49033B91FA40AC2007EA206 /* Availee_iOSTests.swift */; };
 		A49033C51FA40AC2007EA206 /* Availee_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49033C41FA40AC2007EA206 /* Availee_iOSUITests.swift */; };
+		A49033D31FA40DC5007EA206 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49033D21FA40DC5007EA206 /* Login.storyboard */; };
+		A4D4A2E21FA4106100DB60CD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E11FA4106100DB60CD /* Home.storyboard */; };
+		A4D4A2E41FA4106A00DB60CD /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */; };
+		A4D4A2E61FA4108600DB60CD /* Friend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E51FA4108600DB60CD /* Friend.storyboard */; };
+		A4D4A2E81FA4109200DB60CD /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E71FA4109200DB60CD /* Message.storyboard */; };
 		B51C0723D4C90255DA0D97F0 /* Pods_Availee_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE23C6D2FF96FD293022AF0C /* Pods_Availee_iOSUITests.framework */; };
 		C45CD7D448898050F765FA4E /* Pods_Availee_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458270D4D7827EDBE59D226D /* Pods_Availee_iOS.framework */; };
 		F17F38A6BCF5236E30255D8D /* Pods_Availee_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFB485ABFF88B246B244747 /* Pods_Availee_iOSTests.framework */; };
@@ -56,6 +61,11 @@
 		A49033C01FA40AC2007EA206 /* Availee-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Availee-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49033C41FA40AC2007EA206 /* Availee_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Availee_iOSUITests.swift; sourceTree = "<group>"; };
 		A49033C61FA40AC2007EA206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49033D21FA40DC5007EA206 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		A4D4A2E11FA4106100DB60CD /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
+		A4D4A2E51FA4108600DB60CD /* Friend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friend.storyboard; sourceTree = "<group>"; };
+		A4D4A2E71FA4109200DB60CD /* Message.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
 		AD3413B3B8D353C3F2E9503B /* Pods-Availee-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Availee-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Availee-iOS/Pods-Availee-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		BAFB485ABFF88B246B244747 /* Pods_Availee_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Availee_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE23C6D2FF96FD293022AF0C /* Pods_Availee_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Availee_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,9 +149,8 @@
 			children = (
 				A49033A41FA40AC2007EA206 /* AppDelegate.swift */,
 				A49033A61FA40AC2007EA206 /* ViewController.swift */,
-				A49033A81FA40AC2007EA206 /* Main.storyboard */,
+				A4D4A2EA1FA4115E00DB60CD /* Storyboard */,
 				A49033AB1FA40AC2007EA206 /* Assets.xcassets */,
-				A49033AD1FA40AC2007EA206 /* LaunchScreen.storyboard */,
 				A49033B01FA40AC2007EA206 /* Info.plist */,
 			);
 			path = "Availee-iOS";
@@ -163,6 +172,20 @@
 				A49033C61FA40AC2007EA206 /* Info.plist */,
 			);
 			path = "Availee-iOSUITests";
+			sourceTree = "<group>";
+		};
+		A4D4A2EA1FA4115E00DB60CD /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A49033A81FA40AC2007EA206 /* Main.storyboard */,
+				A4D4A2E11FA4106100DB60CD /* Home.storyboard */,
+				A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */,
+				A4D4A2E51FA4108600DB60CD /* Friend.storyboard */,
+				A4D4A2E71FA4109200DB60CD /* Message.storyboard */,
+				A49033D21FA40DC5007EA206 /* Login.storyboard */,
+				A49033AD1FA40AC2007EA206 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +304,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D4A2E41FA4106A00DB60CD /* Calendar.storyboard in Resources */,
+				A49033D31FA40DC5007EA206 /* Login.storyboard in Resources */,
+				A4D4A2E21FA4106100DB60CD /* Home.storyboard in Resources */,
+				A4D4A2E61FA4108600DB60CD /* Friend.storyboard in Resources */,
 				A49033AF1FA40AC2007EA206 /* LaunchScreen.storyboard in Resources */,
 				A49033AC1FA40AC2007EA206 /* Assets.xcassets in Resources */,
+				A4D4A2E81FA4109200DB60CD /* Message.storyboard in Resources */,
 				A49033AA1FA40AC2007EA206 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
