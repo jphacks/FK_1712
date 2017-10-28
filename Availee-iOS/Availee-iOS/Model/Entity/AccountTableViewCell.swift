@@ -1,5 +1,5 @@
 //
-//  MatchingTableViewCell.swift
+//  AccountTableViewCell.swift
 //  Availee-iOS
 //
 //  Created by Risa Ezoe on 2017/10/28.
@@ -8,12 +8,10 @@
 
 import UIKit
 
-class MatchingTableViewCell: UITableViewCell {
-    
+class AccountTableViewCell: UITableViewCell {
+
     @IBOutlet weak var iconImageView: UIImageView!
     @IBOutlet weak var userNameLabel: UILabel!
-    @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var termLabel: UILabel!
     
     
     override func awakeFromNib() {
@@ -21,11 +19,6 @@ class MatchingTableViewCell: UITableViewCell {
         iconImageView.layer.cornerRadius = iconImageView.frame.size.width / 2
         iconImageView.clipsToBounds = true
         
-    }
-    
-    override func layoutIfNeeded() {
-//        iconImageView.layer.cornerRadius = iconImageView.frame.height/2
-//        iconImageView.clipsToBounds = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
