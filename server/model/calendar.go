@@ -2,7 +2,6 @@ package model
 
 import (
 	_ "github.com/go-sql-driver/mysql"
-	"time"
 )
 
 type (
@@ -13,12 +12,12 @@ type (
 	}
 
 	FreeTime struct {
-		StartTime time.Time `json:"start_time"`
-		EndTime time.Time `json:"end_time"`
+		StartTime string `json:"start_time"`
+		EndTime string `json:"end_time"`
 	}
 
 	FreeDate struct {
-		StartDate time.Time `json:"start_date"`
-		EndTime time.Time `json:"end_time"`
+		StartDate string `json:"start_date"`
+		EndDate string `json:"end_date"`
 	}
 )
