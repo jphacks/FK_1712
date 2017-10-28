@@ -30,7 +30,8 @@ class LoginViewController: UIViewController {
         imagePickerController = ImagePickerController(configuration: imagePickerConfiguration())
         imagePickerController.delegate = self
 //        present(imagePickerController, animated: true, completion: nil)
-        
+        IconImageView.layer.cornerRadius = IconImageView.frame.size.width / 2
+        IconImageView.layer.masksToBounds = true
 
         // Do any additional setup after loading the view.
     }
@@ -43,8 +44,7 @@ class LoginViewController: UIViewController {
     private func imagePickerConfiguration() -> Configuration {
         var config = Configuration()
         config.allowMultiplePhotoSelection = false
-        config.backgroundColor = #colorLiteral(red: 0.137254902, green: 0.8666666667, blue: 0.6980392157, alpha: 1)
-        config.mainColor = #colorLiteral(red: 1, green: 0.7568627451, blue: 0.09803921569, alpha: 1)
+        config.mainColor = #colorLiteral(red: 0.137254902, green: 0.8666666667, blue: 0.6980392157, alpha: 1)
         return config
     }
     
