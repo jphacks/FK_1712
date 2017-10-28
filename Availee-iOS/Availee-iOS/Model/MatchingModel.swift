@@ -20,7 +20,7 @@ class MatchingModel {
         }else {
             matchings = realm.objects(Matching.self)
         }
-        matchings = matchings?.filter("start_date >= %@", Date())
+//        matchings = matchings?.filter("start_date >= %@", Date())
         matchings = matchings?.sorted(byKeyPath: "start_date", ascending: true)
         self.matchings = matchings
     }
