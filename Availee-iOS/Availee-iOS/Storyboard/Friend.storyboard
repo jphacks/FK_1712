@@ -20,10 +20,11 @@
                         <viewLayoutGuide key="safeArea" id="0LI-qq-uVK"/>
                     </view>
                     <navigationItem key="navigationItem" id="Fne-9W-qEL"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wb7-06-p2X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2441" y="806"/>
+            <point key="canvasLocation" x="2440.8000000000002" y="805.54722638680664"/>
         </scene>
         <!--Item-->
         <scene sceneID="ZzA-s5-Q8B">
