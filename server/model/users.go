@@ -5,9 +5,14 @@ import (
 )
 
 type (
+	Users struct {
+		ID int `db:"id" json:"id"`
+		Name string `db:"name" json:"name"`
+		Icon string `db:"icon" json:"icon"`
+	}
+
 	UsersJSON struct {
 		Name string `json:"name"`
-		Pass string `json:"pass"`
 		Icon string `json:"icon"`
 	}
 )

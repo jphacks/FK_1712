@@ -9,6 +9,10 @@ func main() {
 	router := gin.Default()
 
 	router.POST("/users", controller.InsertUser)
+	router.POST("/friends", controller.InsertFriend)
+	router.POST("/calendar", controller.FindMatching)
+
+	router.PUT("/users/search", controller.SearchUser)
 
 	router.Run(":8080")
 }
