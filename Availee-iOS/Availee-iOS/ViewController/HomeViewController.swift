@@ -14,15 +14,27 @@ class HomeViewController: UIViewController {
     let model = MatchingModel(user_id: nil)
     let userModel = UserModel()
 
-    @IBOutlet weak var tableView: UITableView!
-    var name: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let realm = try! Realm()
+//        
+//        let calendar = Calendar.current
+//        let fourHoursAfter = calendar.date(byAdding: .hour, value: 4, to: Date())
+//        let twoDaysAfter = calendar.date(byAdding: .day, value: 2, to: Date())
+//        
+//        
+//        let realm = try! Realm()
+//        try! realm.write {
+//            realm.add(User(id: 1, name: "Jolie", icon: ""))
+//            realm.add(User(id: 2, name: "Maemae", icon: "") )
+//            
+//            realm.add(Matching(id: 1, user_id: 1, start_date: Date(), end_date: fourHoursAfter!, isDate: false))
+//            realm.add(Matching(id: 2, user_id: 2, start_date: Date(), end_date: twoDaysAfter!, isDate: true))
+//            
+//        }
+//        
         
- //       let user = 
         
         
         
@@ -45,7 +57,7 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
         guard let matchings = model.matchings else {
             return cell
         }
-        
+//        DateFormatterをつかう
         if matchings[indexPath.row].isDate {
             // いい感じに計算する予定
             cell.dateLabel.text = "\(matchings[indexPath.row].start_date) + \(matchings[indexPath.row].end_date)"
