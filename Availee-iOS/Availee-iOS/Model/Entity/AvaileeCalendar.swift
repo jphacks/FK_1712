@@ -9,7 +9,7 @@
 import Foundation
 import RealmSwift
 
-class Calendar: Object {
+class AvaileeCalendar: Object {
     @objc dynamic var id = 0
     let fixedEvents = List<Event>()
     let myEvents = List<Event>()
