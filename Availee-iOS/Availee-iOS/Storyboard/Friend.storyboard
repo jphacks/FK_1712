@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Friend View Controller-->
+        <!--Friend-->
         <scene sceneID="YB6-26-pEe">
             <objects>
                 <viewController id="Rty-AM-AIQ" customClass="FriendViewController" customModule="Availee_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -54,12 +54,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0LI-qq-uVK"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Friend" image="GroupIcon" id="OTd-4l-meu"/>
                     <navigationItem key="navigationItem" id="Fne-9W-qEL">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="yed-85-OeK">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Kgc-Aq-bfx">
-                                <rect key="frame" x="313" y="7" width="46" height="30"/>
+                                <rect key="frame" x="329" y="7" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="add"/>
                                 <connections>
                                     <segue destination="h52-K1-yzG" kind="presentation" id="whM-hV-dn8"/>
                                 </connections>
@@ -144,4 +145,7 @@
             <point key="canvasLocation" x="1556.8" y="805.99700149925047"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="GroupIcon" width="27" height="25"/>
+    </resources>
 </document>

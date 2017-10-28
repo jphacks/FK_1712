@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Calendar View Controller-->
+        <!--Calendar-->
         <scene sceneID="Rlx-sz-wgW">
             <objects>
                 <viewController id="Bkp-hB-yPa" customClass="CalendarViewController" customModule="Availee_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,7 +19,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="8fe-MU-cGw"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="CalenderIcon" id="RAL-hR-NDd"/>
                     <navigationItem key="navigationItem" id="70y-sh-F91"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2jE-JU-Lah" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -45,4 +47,7 @@
             <point key="canvasLocation" x="1556.8" y="805.99700149925047"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CalenderIcon" width="26" height="26"/>
+    </resources>
 </document>

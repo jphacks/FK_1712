@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Message View Controller-->
+        <!--Message-->
         <scene sceneID="XLD-fE-X8b">
             <objects>
                 <viewController id="Syx-qs-vRn" customClass="MessageViewController" customModule="Availee_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,7 +19,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="FVB-WV-ZIf"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Message" image="MessageIcon" id="G7L-pK-ULI"/>
                     <navigationItem key="navigationItem" id="ktX-0W-13W"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7e-QA-JrX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -45,4 +47,7 @@
             <point key="canvasLocation" x="1556.8" y="805.99700149925047"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="MessageIcon" width="30" height="23"/>
+    </resources>
 </document>
