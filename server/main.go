@@ -2,6 +2,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	"./controller"
+	"./db"
 )
 
 func main() {
