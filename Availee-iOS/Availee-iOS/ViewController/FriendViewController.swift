@@ -10,9 +10,7 @@ import UIKit
 
 class FriendViewController: UIViewController {
 
-    @IBAction func addFriendButton(_ sender: Any) {
-
-    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
