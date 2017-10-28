@@ -20,6 +20,7 @@
 		A49033C51FA40AC2007EA206 /* Availee_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49033C41FA40AC2007EA206 /* Availee_iOSUITests.swift */; };
 		A4B3C0131FA468D900F2C772 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0121FA468D900F2C772 /* UserModel.swift */; };
 		A4B3C0151FA46A0A00F2C772 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0141FA46A0A00F2C772 /* CalendarModel.swift */; };
+		A4B3C0191FA52B5A00F2C772 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0181FA52B5900F2C772 /* Router.swift */; };
 		A4D4A2E21FA4106100DB60CD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E11FA4106100DB60CD /* Home.storyboard */; };
 		A4D4A2E41FA4106A00DB60CD /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */; };
 		A4D4A2E61FA4108600DB60CD /* Friend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E51FA4108600DB60CD /* Friend.storyboard */; };
@@ -79,6 +80,7 @@
 		A49033C61FA40AC2007EA206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4B3C0121FA468D900F2C772 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		A4B3C0141FA46A0A00F2C772 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
+		A4B3C0181FA52B5900F2C772 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		A4D4A2E11FA4106100DB60CD /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
 		A4D4A2E51FA4108600DB60CD /* Friend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friend.storyboard; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 		A4D4A2EF1FA4160B00DB60CD /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				A4B3C0181FA52B5900F2C772 /* Router.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -575,6 +578,7 @@
 				A0FC0C5A1FA42AC1003E5558 /* MatchingTableViewCell.swift in Sources */,
 				A49033A51FA40AC2007EA206 /* AppDelegate.swift in Sources */,
 				A4D4A2F11FA4163900DB60CD /* HomeViewController.swift in Sources */,
+				A4B3C0191FA52B5A00F2C772 /* Router.swift in Sources */,
 				A4D4A2F71FA4165400DB60CD /* MessageViewController.swift in Sources */,
 				A08E200C1FA4CBAA00415B1A /* MatchingModel.swift in Sources */,
 				A0FC0C5C1FA453FB003E5558 /* AddFriendViewController.swift in Sources */,
