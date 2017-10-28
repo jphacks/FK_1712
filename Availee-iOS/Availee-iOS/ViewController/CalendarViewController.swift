@@ -14,6 +14,7 @@ class CalendarViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        koyomi.delegate = self
         koyomiSetup()
         // Do any additional setup after loading the view.
     }
@@ -34,6 +35,8 @@ class CalendarViewController: UIViewController {
         koyomi.lineView.height = 10
         koyomi.lineView.position = .bottom
         
+        koyomi.select(date: Date())
+        
     }
     
     
@@ -50,8 +53,12 @@ extension CalendarViewController: KoyomiDelegate {
         return #colorLiteral(red: 0.137254902, green: 0.8666666667, blue: 0.6980392157, alpha: 1)
     }
     
-    
-    
+}
+
+extension CalendarViewController: UICollectionViewDelegate{
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "detail", sender: nil)
+    }
 }
 
 
