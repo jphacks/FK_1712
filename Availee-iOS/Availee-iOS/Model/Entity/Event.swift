@@ -1,5 +1,5 @@
 //
-//  Matching.swift
+//  Event.swift
 //  Availee-iOS
 //
 //  Created by maekawakazuma on 2017/10/28.
@@ -9,14 +9,10 @@
 import Foundation
 import RealmSwift
 
-class Matching: Object {
-    @objc dynamic var id = 0
-    @objc dynamic var user_id = 0
+class Event: Object {
+    @objc dynamic var id = ""
+    @objc dynamic var title = ""
     @objc dynamic var start_date = Date()
     @objc dynamic var end_date = Date()
-    @objc dynamic var isDate = false
 
-    override static func primaryKey() -> String? {
-        return "id"
-    }
 }
