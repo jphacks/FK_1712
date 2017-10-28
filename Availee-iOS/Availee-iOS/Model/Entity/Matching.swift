@@ -9,7 +9,7 @@
 import Foundation
 import RealmSwift
 
-class Matching: Object {
+class Matching: Object, Codable {
     @objc dynamic var id = 0
     @objc dynamic var user_id = 0
     @objc dynamic var start_date = Date()
@@ -18,5 +18,14 @@ class Matching: Object {
 
     override static func primaryKey() -> String? {
         return "id"
+    }
+    
+    convenience init(id: Int, user_id: Int, start_date: Date, end_date: Date, isDate: Bool) {
+        self.init()
+        self.id = id
+        self.user_id = user_id
+        self.start_date = start_date
+        self.end_date = end_date
+        self.isDate = isDate
     }
 }

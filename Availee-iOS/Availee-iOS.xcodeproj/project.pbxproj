@@ -30,7 +30,6 @@
 		A4D4A2F71FA4165400DB60CD /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2F61FA4165400DB60CD /* MessageViewController.swift */; };
 		A4D4A2F91FA4184B00DB60CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2F81FA4184B00DB60CD /* LoginViewController.swift */; };
 		A4D4A2FB1FA4189600DB60CD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2FA1FA4189600DB60CD /* User.swift */; };
-		A4D4A2FD1FA418A100DB60CD /* AvaileeCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2FC1FA418A100DB60CD /* AvaileeCalendar.swift */; };
 		A4D4A2FF1FA418AB00DB60CD /* Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2FE1FA418AB00DB60CD /* Matching.swift */; };
 		B51C0723D4C90255DA0D97F0 /* Pods_Availee_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE23C6D2FF96FD293022AF0C /* Pods_Availee_iOSUITests.framework */; };
 		C45CD7D448898050F765FA4E /* Pods_Availee_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458270D4D7827EDBE59D226D /* Pods_Availee_iOS.framework */; };
@@ -90,7 +89,6 @@
 		A4D4A2F61FA4165400DB60CD /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		A4D4A2F81FA4184B00DB60CD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A4D4A2FA1FA4189600DB60CD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		A4D4A2FC1FA418A100DB60CD /* AvaileeCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaileeCalendar.swift; sourceTree = "<group>"; };
 		A4D4A2FE1FA418AB00DB60CD /* Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matching.swift; sourceTree = "<group>"; };
 		AD3413B3B8D353C3F2E9503B /* Pods-Availee-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Availee-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Availee-iOS/Pods-Availee-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		BAFB485ABFF88B246B244747 /* Pods_Availee_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Availee_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -253,7 +251,6 @@
 			isa = PBXGroup;
 			children = (
 				A4D4A2FA1FA4189600DB60CD /* User.swift */,
-				A4D4A2FC1FA418A100DB60CD /* AvaileeCalendar.swift */,
 				A08E20051FA4873B00415B1A /* Event.swift */,
 				A4D4A2FE1FA418AB00DB60CD /* Matching.swift */,
 			);
@@ -425,7 +422,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		47ADDC6005BFF859391E20B9 /* [CP] Copy Pods Resources */ = {
@@ -512,7 +509,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A67BFBCA8231FE710E312004 /* [CP] Copy Pods Resources */ = {
@@ -545,7 +542,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F4CD3A9B82D3CC9D4FDBD739 /* [CP] Copy Pods Resources */ = {
@@ -575,7 +572,6 @@
 				A4D4A2F51FA4164E00DB60CD /* FriendViewController.swift in Sources */,
 				A08E20081FA49A9300415B1A /* AccountTableViewCell.swift in Sources */,
 				A4D4A2F31FA4164700DB60CD /* CalendarViewController.swift in Sources */,
-				A4D4A2FD1FA418A100DB60CD /* AvaileeCalendar.swift in Sources */,
 				A0FC0C5A1FA42AC1003E5558 /* MatchingTableViewCell.swift in Sources */,
 				A49033A51FA40AC2007EA206 /* AppDelegate.swift in Sources */,
 				A4D4A2F11FA4163900DB60CD /* HomeViewController.swift in Sources */,
