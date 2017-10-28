@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A08E20061FA4873C00415B1A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E20051FA4873B00415B1A /* Event.swift */; };
 		A08E20081FA49A9300415B1A /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E20071FA49A9300415B1A /* AccountTableViewCell.swift */; };
+		A08E200C1FA4CBAA00415B1A /* MatchingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E200B1FA4CBAA00415B1A /* MatchingModel.swift */; };
 		A0FC0C5A1FA42AC1003E5558 /* MatchingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FC0C591FA42AC1003E5558 /* MatchingTableViewCell.swift */; };
 		A0FC0C5C1FA453FB003E5558 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FC0C5B1FA453FB003E5558 /* AddFriendViewController.swift */; };
 		A49033A51FA40AC2007EA206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49033A41FA40AC2007EA206 /* AppDelegate.swift */; };
@@ -62,6 +63,7 @@
 		91508DB1EEF950C569A5ECF6 /* Pods-Availee-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Availee-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Availee-iOS/Pods-Availee-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		A08E20051FA4873B00415B1A /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		A08E20071FA49A9300415B1A /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountTableViewCell.swift; path = "Availee-iOS/Model/Entity/AccountTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		A08E200B1FA4CBAA00415B1A /* MatchingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingModel.swift; sourceTree = "<group>"; };
 		A0FC0C591FA42AC1003E5558 /* MatchingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MatchingTableViewCell.swift; path = "Availee-iOS/MatchingTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		A0FC0C5B1FA453FB003E5558 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
 		A49033A11FA40AC2007EA206 /* Availee-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Availee-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,7 +80,6 @@
 		A49033C61FA40AC2007EA206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4B3C0121FA468D900F2C772 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		A4B3C0141FA46A0A00F2C772 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
-		A4B3C0161FA46A1700F2C772 /* MatchingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingModel.swift; sourceTree = "<group>"; };
 		A4D4A2E11FA4106100DB60CD /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
 		A4D4A2E51FA4108600DB60CD /* Friend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friend.storyboard; sourceTree = "<group>"; };
@@ -218,9 +219,9 @@
 		A4D4A2EB1FA415E800DB60CD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A08E200B1FA4CBAA00415B1A /* MatchingModel.swift */,
 				A4B3C0121FA468D900F2C772 /* UserModel.swift */,
 				A4B3C0141FA46A0A00F2C772 /* CalendarModel.swift */,
-				A4B3C0161FA46A1700F2C772 /* MatchingModel.swift */,
 				A4D4A2EE1FA4160300DB60CD /* Entity */,
 			);
 			path = Model;
@@ -579,6 +580,7 @@
 				A49033A51FA40AC2007EA206 /* AppDelegate.swift in Sources */,
 				A4D4A2F11FA4163900DB60CD /* HomeViewController.swift in Sources */,
 				A4D4A2F71FA4165400DB60CD /* MessageViewController.swift in Sources */,
+				A08E200C1FA4CBAA00415B1A /* MatchingModel.swift in Sources */,
 				A0FC0C5C1FA453FB003E5558 /* AddFriendViewController.swift in Sources */,
 				A4D4A2FB1FA4189600DB60CD /* User.swift in Sources */,
 				A4D4A2FF1FA418AB00DB60CD /* Matching.swift in Sources */,
