@@ -18,6 +18,12 @@ class User: Object, Codable {
         return "id"
     }
     
+    convenience init(id: Int, name: String, icon: String){
+        self.init()
+        self.id = id
+        self.name = name
+        self.icon = icon
+    }
     
 }
 

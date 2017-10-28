@@ -99,9 +99,6 @@
                     <tabBarItem key="tabBarItem" title="Home" image="HomeIcon" id="ewP-sK-5Jz"/>
                     <navigationItem key="navigationItem" title="Home" id="3wh-q7-Tfh"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <outlet property="tableView" destination="mjm-01-6Gy" id="8Q4-z7-POY"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q4a-ih-aDO" sceneMemberID="firstResponder"/>
             </objects>
