@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Calendar View Controller-->
+        <!--Calendar-->
         <scene sceneID="Rlx-sz-wgW">
             <objects>
                 <viewController id="Bkp-hB-yPa" customClass="CalendarViewController" customModule="Availee_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -104,4 +104,7 @@
             <point key="canvasLocation" x="1556.8" y="805.99700149925047"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CalenderIcon" width="26" height="26"/>
+    </resources>
 </document>

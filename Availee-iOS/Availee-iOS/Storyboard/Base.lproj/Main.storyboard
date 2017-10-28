@@ -42,7 +42,9 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MJH-sG-5le">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.13725490200000001" green="0.86666666670000003" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.066666666666666666" green="0.12156862745098039" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="AzG-l9-G3l" kind="relationship" relationship="viewControllers" id="gAM-Yn-Ep9"/>
@@ -59,7 +61,7 @@
         <scene sceneID="rLQ-Uw-9wL">
             <objects>
                 <viewControllerPlaceholder storyboardName="Friend" id="gvv-EK-KiN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="4WJ-QK-2Sq"/>
+                    <tabBarItem key="tabBarItem" systemItem="more" id="4WJ-QK-2Sq"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WnW-DB-y29" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -69,7 +71,7 @@
         <scene sceneID="1KI-s7-QD5">
             <objects>
                 <viewControllerPlaceholder storyboardName="Message" id="v9q-k9-YTQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="NsN-FF-HMI"/>
+                    <tabBarItem key="tabBarItem" title="Message" image="MessageIcon" id="NsN-FF-HMI"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="srz-lV-5sk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -79,7 +81,7 @@
         <scene sceneID="7aB-pJ-b7o">
             <objects>
                 <viewControllerPlaceholder storyboardName="Home" id="AzG-l9-G3l" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="L4H-ig-e7s"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="HomeIcon" landscapeImage="HomeIcon" selectedImage="HomeIcon" id="L4H-ig-e7s"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8vl-Bd-g5W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -89,11 +91,16 @@
         <scene sceneID="cN9-Cn-AEd">
             <objects>
                 <viewControllerPlaceholder storyboardName="Calendar" id="gfs-7U-bDK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="YjG-f0-BRy"/>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="CalenderIcon" id="YjG-f0-BRy"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iw9-pv-uee" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1025" y="929"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CalenderIcon" width="26" height="26"/>
+        <image name="HomeIcon" width="27" height="23"/>
+        <image name="MessageIcon" width="30" height="23"/>
+    </resources>
 </document>
