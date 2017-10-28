@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A08E20061FA4873C00415B1A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E20051FA4873B00415B1A /* Event.swift */; };
+		A08E20081FA49A9300415B1A /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E20071FA49A9300415B1A /* AccountTableViewCell.swift */; };
 		A0FC0C5A1FA42AC1003E5558 /* MatchingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FC0C591FA42AC1003E5558 /* MatchingTableViewCell.swift */; };
 		A0FC0C5C1FA453FB003E5558 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FC0C5B1FA453FB003E5558 /* AddFriendViewController.swift */; };
 		A49033A51FA40AC2007EA206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49033A41FA40AC2007EA206 /* AppDelegate.swift */; };
@@ -60,6 +61,7 @@
 		7F364B21C992B1A189119F5E /* Pods-Availee-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Availee-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Availee-iOSTests/Pods-Availee-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		91508DB1EEF950C569A5ECF6 /* Pods-Availee-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Availee-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Availee-iOS/Pods-Availee-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		A08E20051FA4873B00415B1A /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A08E20071FA49A9300415B1A /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountTableViewCell.swift; path = "Availee-iOS/Model/Entity/AccountTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		A0FC0C591FA42AC1003E5558 /* MatchingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MatchingTableViewCell.swift; path = "Availee-iOS/MatchingTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		A0FC0C5B1FA453FB003E5558 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
 		A49033A11FA40AC2007EA206 /* Availee-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Availee-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				A0FC0C591FA42AC1003E5558 /* MatchingTableViewCell.swift */,
+				A08E20071FA49A9300415B1A /* AccountTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -569,6 +572,7 @@
 				A4D4A2F91FA4184B00DB60CD /* LoginViewController.swift in Sources */,
 				A4B3C0151FA46A0A00F2C772 /* CalendarModel.swift in Sources */,
 				A4D4A2F51FA4164E00DB60CD /* FriendViewController.swift in Sources */,
+				A08E20081FA49A9300415B1A /* AccountTableViewCell.swift in Sources */,
 				A4D4A2F31FA4164700DB60CD /* CalendarViewController.swift in Sources */,
 				A4D4A2FD1FA418A100DB60CD /* AvaileeCalendar.swift in Sources */,
 				A0FC0C5A1FA42AC1003E5558 /* MatchingTableViewCell.swift in Sources */,
