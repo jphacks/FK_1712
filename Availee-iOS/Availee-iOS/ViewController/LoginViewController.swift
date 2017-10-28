@@ -7,11 +7,30 @@
 //
 
 import UIKit
+import ImagePicker
 
 class LoginViewController: UIViewController {
-
+    var imagePickerController: ImagePickerController!
+  
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var passTextField: UITextField!
+    @IBOutlet weak var IconImageView: UIImageView!
+    
+    @IBAction func setIcon(_ sender: Any) {
+        present(imagePickerController, animated: true, completion: nil)
+    }
+    
+    @IBAction func register(_ sender: Any) {
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        imagePickerController = ImagePickerController(configuration: imagePickerConfiguration())
+        imagePickerController.delegate = self
+//        present(imagePickerController, animated: true, completion: nil)
+        
 
         // Do any additional setup after loading the view.
     }
@@ -21,15 +40,31 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    private func imagePickerConfiguration() -> Configuration {
+        var config = Configuration()
+        config.allowMultiplePhotoSelection = false
+        config.backgroundColor = #colorLiteral(red: 0.137254902, green: 0.8666666667, blue: 0.6980392157, alpha: 1)
+        config.mainColor = #colorLiteral(red: 1, green: 0.7568627451, blue: 0.09803921569, alpha: 1)
+        return config
     }
-    */
+    
+
+}
+
+extension LoginViewController: ImagePickerDelegate{
+    
+    func wrapperDidPress(_ imagePicker: ImagePickerController, images: [UIImage]) {
+        
+    }
+    
+    func doneButtonDidPress(_ imagePicker: ImagePickerController, images: [UIImage]) {
+        imagePicker.dismiss(animated: true) {
+            self.IconImageView.image = images.first
+        }
+    }
+    
+    func cancelButtonDidPress(_ imagePicker: ImagePickerController) {
+        imagePicker.dismiss(animated: true, completion: nil)
+    }
 
 }
