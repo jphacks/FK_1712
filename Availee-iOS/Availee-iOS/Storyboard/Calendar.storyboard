@@ -17,13 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OTp-0u-iXT">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OTp-0u-iXT">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="pq8-Hz-ZBI">
-                                        <rect key="frame" x="0.0" y="71" width="375" height="483"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="pq8-Hz-ZBI" customClass="Koyomi" customModule="Koyomi">
+                                        <rect key="frame" x="0.0" y="45.5" width="375" height="508.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="stJ-1N-DjE">
                                             <size key="itemSize" width="48" height="45"/>
@@ -39,35 +37,43 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="48" height="45"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </view>
-                                                <color key="backgroundColor" red="1" green="0.92751577489152315" blue="0.35073070370385984" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </collectionViewCell>
                                         </cells>
-                                        <connections>
-                                            <outlet property="dataSource" destination="Bkp-hB-yPa" id="B97-zU-6Ra"/>
-                                            <outlet property="delegate" destination="Bkp-hB-yPa" id="4bi-cf-Nmk"/>
-                                        </connections>
                                     </collectionView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTf-Hw-g9s">
-                                        <rect key="frame" x="280" y="14" width="62" height="37"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Add"/>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10月" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVU-eg-xYv">
-                                        <rect key="frame" x="16" y="14" width="64" height="37"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="September" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wq8-SA-5Oo">
+                                        <rect key="frame" x="117.5" y="5" width="140" height="33"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                        <color key="textColor" red="0.13725490196078433" green="0.8666666666666667" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="pq8-Hz-ZBI" firstAttribute="top" secondItem="Wq8-SA-5Oo" secondAttribute="bottom" constant="8" id="2ot-ze-pTM"/>
+                                    <constraint firstItem="pq8-Hz-ZBI" firstAttribute="leading" secondItem="OTp-0u-iXT" secondAttribute="leading" id="Rza-T9-3Yb"/>
+                                    <constraint firstAttribute="trailing" secondItem="pq8-Hz-ZBI" secondAttribute="trailing" id="TWY-rY-ZYQ"/>
+                                    <constraint firstItem="Wq8-SA-5Oo" firstAttribute="centerX" secondItem="OTp-0u-iXT" secondAttribute="centerX" id="Ux5-rP-WQb"/>
+                                    <constraint firstItem="Wq8-SA-5Oo" firstAttribute="top" secondItem="OTp-0u-iXT" secondAttribute="top" constant="5" id="fdg-w6-zMI"/>
+                                    <constraint firstAttribute="bottom" secondItem="pq8-Hz-ZBI" secondAttribute="bottom" id="hfn-PT-HZd"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OTp-0u-iXT" firstAttribute="bottom" secondItem="8fe-MU-cGw" secondAttribute="bottom" id="ACZ-kA-iEh"/>
+                            <constraint firstItem="OTp-0u-iXT" firstAttribute="top" secondItem="8fe-MU-cGw" secondAttribute="top" id="S8A-G5-RTT"/>
+                            <constraint firstItem="OTp-0u-iXT" firstAttribute="leading" secondItem="8fe-MU-cGw" secondAttribute="leading" id="f8S-kr-FXa"/>
+                            <constraint firstItem="OTp-0u-iXT" firstAttribute="trailing" secondItem="8fe-MU-cGw" secondAttribute="trailing" id="u0o-01-STN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="8fe-MU-cGw"/>
                     </view>
-                    <navigationItem key="navigationItem" id="70y-sh-F91"/>
+                    <navigationItem key="navigationItem" id="70y-sh-F91">
+                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="119-Nz-v7q"/>
+                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="koyomi" destination="pq8-Hz-ZBI" id="AEj-X1-PTt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2jE-JU-Lah" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
