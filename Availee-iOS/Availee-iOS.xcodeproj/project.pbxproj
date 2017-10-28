@@ -15,6 +15,10 @@
 		A49033AF1FA40AC2007EA206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49033AD1FA40AC2007EA206 /* LaunchScreen.storyboard */; };
 		A49033BA1FA40AC2007EA206 /* Availee_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49033B91FA40AC2007EA206 /* Availee_iOSTests.swift */; };
 		A49033C51FA40AC2007EA206 /* Availee_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49033C41FA40AC2007EA206 /* Availee_iOSUITests.swift */; };
+		A4B3C0111FA461CE00F2C772 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0101FA461CE00F2C772 /* Event.swift */; };
+		A4B3C0131FA468D900F2C772 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0121FA468D900F2C772 /* UserModel.swift */; };
+		A4B3C0151FA46A0A00F2C772 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0141FA46A0A00F2C772 /* CalendarModel.swift */; };
+		A4B3C0171FA46A1700F2C772 /* MatchingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0161FA46A1700F2C772 /* MatchingModel.swift */; };
 		A4D4A2E21FA4106100DB60CD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E11FA4106100DB60CD /* Home.storyboard */; };
 		A4D4A2E41FA4106A00DB60CD /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */; };
 		A4D4A2E61FA4108600DB60CD /* Friend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E51FA4108600DB60CD /* Friend.storyboard */; };
@@ -25,7 +29,7 @@
 		A4D4A2F71FA4165400DB60CD /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2F61FA4165400DB60CD /* MessageViewController.swift */; };
 		A4D4A2F91FA4184B00DB60CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2F81FA4184B00DB60CD /* LoginViewController.swift */; };
 		A4D4A2FB1FA4189600DB60CD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2FA1FA4189600DB60CD /* User.swift */; };
-		A4D4A2FD1FA418A100DB60CD /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2FC1FA418A100DB60CD /* Calendar.swift */; };
+		A4D4A2FD1FA418A100DB60CD /* AvaileeCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2FC1FA418A100DB60CD /* AvaileeCalendar.swift */; };
 		A4D4A2FF1FA418AB00DB60CD /* Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2FE1FA418AB00DB60CD /* Matching.swift */; };
 		B51C0723D4C90255DA0D97F0 /* Pods_Availee_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE23C6D2FF96FD293022AF0C /* Pods_Availee_iOSUITests.framework */; };
 		C45CD7D448898050F765FA4E /* Pods_Availee_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458270D4D7827EDBE59D226D /* Pods_Availee_iOS.framework */; };
@@ -70,6 +74,10 @@
 		A49033C01FA40AC2007EA206 /* Availee-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Availee-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49033C41FA40AC2007EA206 /* Availee_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Availee_iOSUITests.swift; sourceTree = "<group>"; };
 		A49033C61FA40AC2007EA206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B3C0101FA461CE00F2C772 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A4B3C0121FA468D900F2C772 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A4B3C0141FA46A0A00F2C772 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
+		A4B3C0161FA46A1700F2C772 /* MatchingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingModel.swift; sourceTree = "<group>"; };
 		A4D4A2E11FA4106100DB60CD /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
 		A4D4A2E51FA4108600DB60CD /* Friend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friend.storyboard; sourceTree = "<group>"; };
@@ -80,7 +88,7 @@
 		A4D4A2F61FA4165400DB60CD /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		A4D4A2F81FA4184B00DB60CD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A4D4A2FA1FA4189600DB60CD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		A4D4A2FC1FA418A100DB60CD /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		A4D4A2FC1FA418A100DB60CD /* AvaileeCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaileeCalendar.swift; sourceTree = "<group>"; };
 		A4D4A2FE1FA418AB00DB60CD /* Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matching.swift; sourceTree = "<group>"; };
 		AD3413B3B8D353C3F2E9503B /* Pods-Availee-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Availee-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Availee-iOS/Pods-Availee-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		BAFB485ABFF88B246B244747 /* Pods_Availee_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Availee_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -209,6 +217,9 @@
 		A4D4A2EB1FA415E800DB60CD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A4B3C0121FA468D900F2C772 /* UserModel.swift */,
+				A4B3C0141FA46A0A00F2C772 /* CalendarModel.swift */,
+				A4B3C0161FA46A1700F2C772 /* MatchingModel.swift */,
 				A4D4A2EE1FA4160300DB60CD /* Entity */,
 			);
 			path = Model;
@@ -239,7 +250,8 @@
 			isa = PBXGroup;
 			children = (
 				A4D4A2FA1FA4189600DB60CD /* User.swift */,
-				A4D4A2FC1FA418A100DB60CD /* Calendar.swift */,
+				A4D4A2FC1FA418A100DB60CD /* AvaileeCalendar.swift */,
+				A4B3C0101FA461CE00F2C772 /* Event.swift */,
 				A4D4A2FE1FA418AB00DB60CD /* Matching.swift */,
 			);
 			path = Entity;
@@ -434,9 +446,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Availee-iOS/Pods-Availee-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Koyomi/Koyomi.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koyomi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -547,6 +568,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4D4A2F91FA4184B00DB60CD /* LoginViewController.swift in Sources */,
+				A4B3C0151FA46A0A00F2C772 /* CalendarModel.swift in Sources */,
 				A4D4A2F51FA4164E00DB60CD /* FriendViewController.swift in Sources */,
 				A4D4A2F31FA4164700DB60CD /* CalendarViewController.swift in Sources */,
 				A4D4A2FD1FA418A100DB60CD /* Calendar.swift in Sources */,
@@ -557,6 +579,7 @@
 				A0FC0C5C1FA453FB003E5558 /* AddFriendViewController.swift in Sources */,
 				A4D4A2FB1FA4189600DB60CD /* User.swift in Sources */,
 				A4D4A2FF1FA418AB00DB60CD /* Matching.swift in Sources */,
+				A4B3C0131FA468D900F2C772 /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,6 +747,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MDPWN7SYJG;
 				INFOPLIST_FILE = "Availee-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.planningdev.Availee-iOS";
@@ -739,6 +763,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MDPWN7SYJG;
 				INFOPLIST_FILE = "Availee-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.planningdev.Availee-iOS";

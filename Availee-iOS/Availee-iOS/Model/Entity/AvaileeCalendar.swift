@@ -1,5 +1,5 @@
 //
-//  Matching.swift
+//  Calendar.swift
 //  Availee-iOS
 //
 //  Created by maekawakazuma on 2017/10/28.
@@ -9,13 +9,11 @@
 import Foundation
 import RealmSwift
 
-class Matching: Object {
+class AvaileeCalendar: Object {
     @objc dynamic var id = 0
-    @objc dynamic var user_id = 0
-    @objc dynamic var start_date = Date()
-    @objc dynamic var end_date = Date()
-    @objc dynamic var isDate = false
-
+    let fixedEvents = List<Event>()
+    let myEvents = List<Event>()
+    
     override static func primaryKey() -> String? {
         return "id"
     }
