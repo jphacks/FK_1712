@@ -8,5 +8,8 @@ import (
 )
 
 func InsertUser(c *gin.Context) {
+	u := new(model.UsersJSON)
+	c.BindJSON(u)
+
 
 }
