@@ -14,6 +14,9 @@
 		A49033AF1FA40AC2007EA206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49033AD1FA40AC2007EA206 /* LaunchScreen.storyboard */; };
 		A49033BA1FA40AC2007EA206 /* Availee_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49033B91FA40AC2007EA206 /* Availee_iOSTests.swift */; };
 		A49033C51FA40AC2007EA206 /* Availee_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49033C41FA40AC2007EA206 /* Availee_iOSUITests.swift */; };
+		B51C0723D4C90255DA0D97F0 /* Pods_Availee_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE23C6D2FF96FD293022AF0C /* Pods_Availee_iOSUITests.framework */; };
+		C45CD7D448898050F765FA4E /* Pods_Availee_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458270D4D7827EDBE59D226D /* Pods_Availee_iOS.framework */; };
+		F17F38A6BCF5236E30255D8D /* Pods_Availee_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFB485ABFF88B246B244747 /* Pods_Availee_iOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		397339A0E2B95B4124B545B3 /* Pods-Availee-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Availee-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Availee-iOSUITests/Pods-Availee-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		39BBC6C8E30B1F53971B827B /* Pods-Availee-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Availee-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Availee-iOSTests/Pods-Availee-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		458270D4D7827EDBE59D226D /* Pods_Availee_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Availee_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6E6697D5DAC6B8294B66EB /* Pods-Availee-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Availee-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Availee-iOSUITests/Pods-Availee-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F364B21C992B1A189119F5E /* Pods-Availee-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Availee-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Availee-iOSTests/Pods-Availee-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91508DB1EEF950C569A5ECF6 /* Pods-Availee-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Availee-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Availee-iOS/Pods-Availee-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		A49033A11FA40AC2007EA206 /* Availee-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Availee-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49033A41FA40AC2007EA206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A49033A61FA40AC2007EA206 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		A49033C01FA40AC2007EA206 /* Availee-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Availee-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49033C41FA40AC2007EA206 /* Availee_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Availee_iOSUITests.swift; sourceTree = "<group>"; };
 		A49033C61FA40AC2007EA206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3413B3B8D353C3F2E9503B /* Pods-Availee-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Availee-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Availee-iOS/Pods-Availee-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BAFB485ABFF88B246B244747 /* Pods_Availee_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Availee_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE23C6D2FF96FD293022AF0C /* Pods_Availee_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Availee_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45CD7D448898050F765FA4E /* Pods_Availee_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17F38A6BCF5236E30255D8D /* Pods_Availee_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B51C0723D4C90255DA0D97F0 /* Pods_Availee_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		587F1F7E153DD4AD7D52E2D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD3413B3B8D353C3F2E9503B /* Pods-Availee-iOS.debug.xcconfig */,
+				91508DB1EEF950C569A5ECF6 /* Pods-Availee-iOS.release.xcconfig */,
+				7F364B21C992B1A189119F5E /* Pods-Availee-iOSTests.debug.xcconfig */,
+				39BBC6C8E30B1F53971B827B /* Pods-Availee-iOSTests.release.xcconfig */,
+				6A6E6697D5DAC6B8294B66EB /* Pods-Availee-iOSUITests.debug.xcconfig */,
+				397339A0E2B95B4124B545B3 /* Pods-Availee-iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8AF65861D6F605752F10964F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				458270D4D7827EDBE59D226D /* Pods_Availee_iOS.framework */,
+				BAFB485ABFF88B246B244747 /* Pods_Availee_iOSTests.framework */,
+				EE23C6D2FF96FD293022AF0C /* Pods_Availee_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A49033981FA40AC2007EA206 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				A49033B81FA40AC2007EA206 /* Availee-iOSTests */,
 				A49033C31FA40AC2007EA206 /* Availee-iOSUITests */,
 				A49033A21FA40AC2007EA206 /* Products */,
+				587F1F7E153DD4AD7D52E2D5 /* Pods */,
+				8AF65861D6F605752F10964F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A49033C91FA40AC2007EA206 /* Build configuration list for PBXNativeTarget "Availee-iOS" */;
 			buildPhases = (
+				0628DD66707969D328007A4A /* [CP] Check Pods Manifest.lock */,
 				A490339D1FA40AC2007EA206 /* Sources */,
 				A490339E1FA40AC2007EA206 /* Frameworks */,
 				A490339F1FA40AC2007EA206 /* Resources */,
+				51992EBD3BF82B3C01053C80 /* [CP] Embed Pods Frameworks */,
+				A67BFBCA8231FE710E312004 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A49033CC1FA40AC2007EA206 /* Build configuration list for PBXNativeTarget "Availee-iOSTests" */;
 			buildPhases = (
+				A33388F2AFA96DF470242EF1 /* [CP] Check Pods Manifest.lock */,
 				A49033B11FA40AC2007EA206 /* Sources */,
 				A49033B21FA40AC2007EA206 /* Frameworks */,
 				A49033B31FA40AC2007EA206 /* Resources */,
+				68E4F39E0F687A8F83C7DBFE /* [CP] Embed Pods Frameworks */,
+				F4CD3A9B82D3CC9D4FDBD739 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A49033CF1FA40AC2007EA206 /* Build configuration list for PBXNativeTarget "Availee-iOSUITests" */;
 			buildPhases = (
+				DB767ADA3BD86F20EC3F4376 /* [CP] Check Pods Manifest.lock */,
 				A49033BC1FA40AC2007EA206 /* Sources */,
 				A49033BD1FA40AC2007EA206 /* Frameworks */,
 				A49033BE1FA40AC2007EA206 /* Resources */,
+				65D2E902A2A8CB2930AFB2AE /* [CP] Embed Pods Frameworks */,
+				47ADDC6005BFF859391E20B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0628DD66707969D328007A4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Availee-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47ADDC6005BFF859391E20B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Availee-iOSUITests/Pods-Availee-iOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51992EBD3BF82B3C01053C80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Availee-iOS/Pods-Availee-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D2E902A2A8CB2930AFB2AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Availee-iOSUITests/Pods-Availee-iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E4F39E0F687A8F83C7DBFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Availee-iOSTests/Pods-Availee-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A33388F2AFA96DF470242EF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Availee-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A67BFBCA8231FE710E312004 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Availee-iOS/Pods-Availee-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB767ADA3BD86F20EC3F4376 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Availee-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4CD3A9B82D3CC9D4FDBD739 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Availee-iOSTests/Pods-Availee-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A490339D1FA40AC2007EA206 /* Sources */ = {
@@ -424,6 +620,7 @@
 		};
 		A49033CA1FA40AC2007EA206 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3413B3B8D353C3F2E9503B /* Pods-Availee-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +635,7 @@
 		};
 		A49033CB1FA40AC2007EA206 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91508DB1EEF950C569A5ECF6 /* Pods-Availee-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +650,7 @@
 		};
 		A49033CD1FA40AC2007EA206 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F364B21C992B1A189119F5E /* Pods-Availee-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +667,7 @@
 		};
 		A49033CE1FA40AC2007EA206 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39BBC6C8E30B1F53971B827B /* Pods-Availee-iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +684,7 @@
 		};
 		A49033D01FA40AC2007EA206 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6E6697D5DAC6B8294B66EB /* Pods-Availee-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +700,7 @@
 		};
 		A49033D11FA40AC2007EA206 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397339A0E2B95B4124B545B3 /* Pods-Availee-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
