@@ -55,7 +55,7 @@
                         <viewLayoutGuide key="safeArea" id="0LI-qq-uVK"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Friend" image="GroupIcon" id="OTd-4l-meu"/>
-                    <navigationItem key="navigationItem" id="Fne-9W-qEL">
+                    <navigationItem key="navigationItem" title="Friend" id="Fne-9W-qEL">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="yed-85-OeK">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Kgc-Aq-bfx">
                                 <rect key="frame" x="329" y="7" width="30" height="30"/>

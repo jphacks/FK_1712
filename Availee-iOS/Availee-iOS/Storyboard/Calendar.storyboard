@@ -20,7 +20,7 @@
                         <viewLayoutGuide key="safeArea" id="8fe-MU-cGw"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendar" image="CalenderIcon" id="RAL-hR-NDd"/>
-                    <navigationItem key="navigationItem" id="70y-sh-F91"/>
+                    <navigationItem key="navigationItem" title="Calendar" id="70y-sh-F91"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2jE-JU-Lah" userLabel="First Responder" sceneMemberID="firstResponder"/>

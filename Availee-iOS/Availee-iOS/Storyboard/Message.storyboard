@@ -20,7 +20,7 @@
                         <viewLayoutGuide key="safeArea" id="FVB-WV-ZIf"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Message" image="MessageIcon" id="G7L-pK-ULI"/>
-                    <navigationItem key="navigationItem" id="ktX-0W-13W"/>
+                    <navigationItem key="navigationItem" title="Message" id="ktX-0W-13W"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7e-QA-JrX" userLabel="First Responder" sceneMemberID="firstResponder"/>
