@@ -25,8 +25,4 @@ class AddFriendViewController: UIViewController {
         //add friend
     }
     
-    @IBAction func cancelButtonTapped(_ sender: Any) {
-        dismiss(animated: true)
-    }
-    
 }
