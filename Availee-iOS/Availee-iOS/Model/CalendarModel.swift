@@ -91,9 +91,9 @@ class CalendarModel {
     
     func getEventsFromAppleCalendar (startDate: Date, endDate: Date) -> [Event] {
 //        let calendars = eventStore.calendars(for: EKEntityType.event)
-        let calendars = [eventStore.defaultCalendarForNewEvents!]
-        
-        let predicate = eventStore.predicateForEvents(withStart: startDate, end: endDate, calendars: calendars)
+        let calendars = eventStore.defaultCalendarForNewEvents
+        guard let cal = calendars else { return [] }
+        let predicate = eventStore.predicateForEvents(withStart: startDate, end: endDate, calendars: [cal])
         let events = eventStore.events(matching: predicate)
         
         return events.map { (event) -> Event in
