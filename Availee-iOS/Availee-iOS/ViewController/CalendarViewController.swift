@@ -17,7 +17,7 @@ class CalendarViewController: UIViewController {
         super.viewDidLoad()
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor : #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)]
 
-        koyomi.delegate = self
+//        koyomi.delegate = self
         koyomiSetup()
         showEvent()
         
@@ -60,14 +60,14 @@ extension CalendarViewController: KoyomiDelegate {
     }
     
     func koyomi(_ koyomi: Koyomi, selectionColorForItemAt indexPath: IndexPath, date: Date) -> UIColor? {
-        return #colorLiteral(red: 0.137254902, green: 0.8666666667, blue: 0.6980392157, alpha: 1)
+        return #colorLiteral(red: 1, green: 0.7942341566, blue: 0.1161259785, alpha: 1)
     }
     
 }
 
 extension CalendarViewController: UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "detail", sender: nil)
+//        performSegue(withIdentifier: "detail", sender: nil)
     }
 }
 
