@@ -19,7 +19,7 @@ class CalendarViewController: UIViewController {
         koyomiSetup()
         showEvent()
         
-        print(FreeTime(start: Date(), end: Date()))
+        print(FreeDate(start: Date(), end: Date()))
         // Do any additional setup after loading the view.
     }
 
