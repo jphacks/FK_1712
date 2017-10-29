@@ -12,6 +12,7 @@ class FriendViewController: UIViewController {
 
     var id: Int = 0
     var icon: String = ""
+    let model = UserModel()
     
     @IBOutlet weak var friendTableView: UITableView!
     
@@ -31,11 +32,11 @@ class FriendViewController: UIViewController {
 extension FriendViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "friend", for: indexPath) as! AccountTableViewCell
-        cell.userNameLabel.text = "kinmaru"
+        cell.userNameLabel.text = model.users?[indexPath.row].name ?? ""
         return cell
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return model.users?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

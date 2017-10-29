@@ -11,6 +11,12 @@
 		A08E20081FA49A9300415B1A /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E20071FA49A9300415B1A /* AccountTableViewCell.swift */; };
 		A08E200C1FA4CBAA00415B1A /* MatchingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E200B1FA4CBAA00415B1A /* MatchingModel.swift */; };
 		A08E200E1FA57A3200415B1A /* FreeTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E200D1FA57A3200415B1A /* FreeTime.swift */; };
+		A08E201A1FA5979400415B1A /* 918726d10a5c597eff7d936099f837991.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A08E20191FA5979300415B1A /* 918726d10a5c597eff7d936099f837991.jpg */; };
+		A08E20201FA59A8D00415B1A /* スクリーンショット 2017-10-24 10.59.19@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A08E201B1FA59A8B00415B1A /* スクリーンショット 2017-10-24 10.59.19@3x.png */; };
+		A08E20211FA59A8D00415B1A /* スクリーンショット 2017-10-24 11.11.35@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A08E201C1FA59A8B00415B1A /* スクリーンショット 2017-10-24 11.11.35@3x.png */; };
+		A08E20221FA59A8D00415B1A /* スクリーンショット 2017-10-24 11.16.10@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A08E201D1FA59A8C00415B1A /* スクリーンショット 2017-10-24 11.16.10@3x.png */; };
+		A08E20231FA59A8D00415B1A /* スクリーンショット 2017-10-24 11.14.08@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A08E201E1FA59A8C00415B1A /* スクリーンショット 2017-10-24 11.14.08@3x.png */; };
+		A08E20241FA59A8D00415B1A /* スクリーンショット 2017-10-24 10.58.38@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A08E201F1FA59A8D00415B1A /* スクリーンショット 2017-10-24 10.58.38@3x.png */; };
 		A0FC0C5A1FA42AC1003E5558 /* MatchingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FC0C591FA42AC1003E5558 /* MatchingTableViewCell.swift */; };
 		A0FC0C5C1FA453FB003E5558 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FC0C5B1FA453FB003E5558 /* AddFriendViewController.swift */; };
 		A49033A51FA40AC2007EA206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49033A41FA40AC2007EA206 /* AppDelegate.swift */; };
@@ -67,6 +73,12 @@
 		A08E20071FA49A9300415B1A /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountTableViewCell.swift; path = "Availee-iOS/Model/Entity/AccountTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		A08E200B1FA4CBAA00415B1A /* MatchingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingModel.swift; sourceTree = "<group>"; };
 		A08E200D1FA57A3200415B1A /* FreeTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeTime.swift; sourceTree = "<group>"; };
+		A08E20191FA5979300415B1A /* 918726d10a5c597eff7d936099f837991.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 918726d10a5c597eff7d936099f837991.jpg; sourceTree = "<group>"; };
+		A08E201B1FA59A8B00415B1A /* スクリーンショット 2017-10-24 10.59.19@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2017-10-24 10.59.19@3x.png"; sourceTree = "<group>"; };
+		A08E201C1FA59A8B00415B1A /* スクリーンショット 2017-10-24 11.11.35@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2017-10-24 11.11.35@3x.png"; sourceTree = "<group>"; };
+		A08E201D1FA59A8C00415B1A /* スクリーンショット 2017-10-24 11.16.10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2017-10-24 11.16.10@3x.png"; sourceTree = "<group>"; };
+		A08E201E1FA59A8C00415B1A /* スクリーンショット 2017-10-24 11.14.08@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2017-10-24 11.14.08@3x.png"; sourceTree = "<group>"; };
+		A08E201F1FA59A8D00415B1A /* スクリーンショット 2017-10-24 10.58.38@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2017-10-24 10.58.38@3x.png"; sourceTree = "<group>"; };
 		A0FC0C591FA42AC1003E5558 /* MatchingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MatchingTableViewCell.swift; path = "Availee-iOS/MatchingTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		A0FC0C5B1FA453FB003E5558 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
 		A49033A11FA40AC2007EA206 /* Availee-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Availee-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -268,6 +280,12 @@
 		A4D4A2EF1FA4160B00DB60CD /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				A08E20191FA5979300415B1A /* 918726d10a5c597eff7d936099f837991.jpg */,
+				A08E201F1FA59A8D00415B1A /* スクリーンショット 2017-10-24 10.58.38@3x.png */,
+				A08E201B1FA59A8B00415B1A /* スクリーンショット 2017-10-24 10.59.19@3x.png */,
+				A08E201C1FA59A8B00415B1A /* スクリーンショット 2017-10-24 11.11.35@3x.png */,
+				A08E201E1FA59A8C00415B1A /* スクリーンショット 2017-10-24 11.14.08@3x.png */,
+				A08E201D1FA59A8C00415B1A /* スクリーンショット 2017-10-24 11.16.10@3x.png */,
 				A4B3C0181FA52B5900F2C772 /* Router.swift */,
 			);
 			path = Utility;
@@ -389,12 +407,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A08E20241FA59A8D00415B1A /* スクリーンショット 2017-10-24 10.58.38@3x.png in Resources */,
 				A4B3C01B1FA55BA900F2C772 /* Login.storyboard in Resources */,
 				A4D4A2E41FA4106A00DB60CD /* Calendar.storyboard in Resources */,
+				A08E20201FA59A8D00415B1A /* スクリーンショット 2017-10-24 10.59.19@3x.png in Resources */,
 				A4D4A2E21FA4106100DB60CD /* Home.storyboard in Resources */,
+				A08E201A1FA5979400415B1A /* 918726d10a5c597eff7d936099f837991.jpg in Resources */,
+				A08E20231FA59A8D00415B1A /* スクリーンショット 2017-10-24 11.14.08@3x.png in Resources */,
 				A4D4A2E61FA4108600DB60CD /* Friend.storyboard in Resources */,
 				A49033AF1FA40AC2007EA206 /* LaunchScreen.storyboard in Resources */,
+				A08E20211FA59A8D00415B1A /* スクリーンショット 2017-10-24 11.11.35@3x.png in Resources */,
 				A49033AC1FA40AC2007EA206 /* Assets.xcassets in Resources */,
+				A08E20221FA59A8D00415B1A /* スクリーンショット 2017-10-24 11.16.10@3x.png in Resources */,
 				A4D4A2E81FA4109200DB60CD /* Message.storyboard in Resources */,
 				A49033AA1FA40AC2007EA206 /* Main.storyboard in Resources */,
 			);
