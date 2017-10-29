@@ -65,13 +65,18 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
             let end_str = dateFormatter.string(from: matchings[indexPath.row].end_date)
             cell.dateLabel.text = start_str + "-" + end_str
             // いい感じに計算する
-            cell.termLabel.text = "3days"
+//            dateFormatter.dateFormat = ""
+//            let term =
+//            cell.termLabel.text = "\(term) + days"
         } else {
             dateFormatter.dateFormat = "MM/dd(EEE)"
             let start_str = dateFormatter.string(from: matchings[indexPath.row].start_date)
             cell.dateLabel.text = start_str
             // いい感じに計算する
-            cell.termLabel.text = "\(matchings[indexPath.row].start_date) + \(matchings[indexPath.row].end_date)"
+            dateFormatter.dateFormat = "HH:mm"
+            let start_term = dateFormatter.string(from: matchings[indexPath.row].start_date)
+            let end_term = dateFormatter.string(from: matchings[indexPath.row].end_date)
+            cell.termLabel.text = start_term + "-" + end_term
         }
         let user = userModel.userForId(user_id: matchings[indexPath.row].user_id)
         
