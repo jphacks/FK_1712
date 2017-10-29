@@ -23,22 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            [NSAttributedStringKey.foregroundColor : UIColor.white,
 //             NSAttributedStringKey.font : UIFont(name: "AmericanTypewriter-Bold", size: 30)!]
 
-        
-        UITabBar.appearance().tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-//        let nomalAttributes = [NSFontAttributeName: fontFamily, NSForegroundColorAttributeName: UIColor.whiteColor()]
-//
-////        let normalAttributes: NSDictionary! = [NSForegroundColorAttributeName: normalColor]
-//        UITabBarItem.appearance().setTitleTextAttributes(normalAttributes, forState: UIControlState.Normal)
-        
-//        // 非選択時の設定
-//        let nomalAttributes = [ForegroundColorName: UIColor.whiteColor()]
-//        /// タイトルテキストカラーの設定
-//        UITabBarItem.appearance().setTitleTextAttributes(nomalAttributes, forState: UIControlState.Normal)
-        /// アイコンカラー（画像）の設定
-//        var assets :Array<String> = ["TabBarListImage.jpg", "TabBarSearchImage.jpg", "TabBarAccountImage.jpg"]
-//        for (idx, item) in UITabBar.appearance().items!.enumerated() {
-//            item.image = UIImage.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
-//        }
+        UITabBar.appearance().unselectedItemTintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        UITabBar.appearance().tintColor = #colorLiteral(red: 0.08086351305, green: 0.165294081, blue: 0.2608318627, alpha: 1)
         
         if isRegisterd() {
             let main = UIStoryboard(name: "Main", bundle: nil)
