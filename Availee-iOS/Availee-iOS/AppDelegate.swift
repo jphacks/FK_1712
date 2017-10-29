@@ -16,7 +16,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         UINavigationBar.appearance().barTintColor = #colorLiteral(red: 0.09240212291, green: 0.8810169101, blue: 0.7510151267, alpha: 1)
+        
+        if isRegisterd() {
+            let main = UIStoryboard(name: "Main", bundle: nil)
+            self.window?.rootViewController = main.instantiateInitialViewController()
+        } else {
+            let login = UIStoryboard(name: "Login", bundle: nil)
+            self.window?.rootViewController = login.instantiateInitialViewController()
+        }
+        
 //        UINavigationBar.title.appearance().textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        return true
+    }
+    
+    private func isRegisterd() -> Bool{
+        let userDefaults = UserDefaults.standard
+        guard let _ = userDefaults.value(forKey: "name") else { return false }
+        guard let _ = userDefaults.value(forKey: "icon") else { return false }
         return true
     }
 
