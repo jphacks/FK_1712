@@ -58,6 +58,19 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
         guard let matchings = model.matchings else {
             return cell
         }
+        //intervalの計算
+        func getIntervalDays(date:Date, anotherDay:Date) -> Int {
+            var retInterval:Double!
+            let format = DateFormatter()
+            format.dateFormat = "MM/dd"
+            let daysString:(String, String) = (format.string(from: date) , format.string(from: anotherDay))
+            let dates: (Date, Date) = (format.date(from: daysString.0)!, format.date(from: daysString.1)!)
+            
+            retInterval = dates.0.timeIntervalSince(dates.1)
+            let ret = (retInterval/86400) + 1
+            return Int(floor(ret))
+        }
+        
 //        DateFormatterをつかう
         if matchings[indexPath.row].isDate {
             dateFormatter.dateFormat = "MM/dd(EEE)"
@@ -67,7 +80,8 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
             // いい感じに計算する
 //            dateFormatter.dateFormat = ""
 //            let term =
-//            cell.termLabel.text = "\(term) + days"
+            cell.termLabel.text = "\(getIntervalDays(date: matchings[indexPath.row].end_date, anotherDay: matchings[indexPath.row].start_date) )days"
+            
         } else {
             dateFormatter.dateFormat = "MM/dd(EEE)"
             let start_str = dateFormatter.string(from: matchings[indexPath.row].start_date)
