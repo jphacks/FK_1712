@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/Kazuma/Desktop/FK_1712/Availee-iOS/Availee-iOS/Model/Entity/FreeTime.swift">
+   </FileRef>
+   <FileRef
       location = "group:Availee-iOS.xcodeproj">
    </FileRef>
    <FileRef
