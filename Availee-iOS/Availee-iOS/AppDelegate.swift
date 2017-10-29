@@ -17,12 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         UINavigationBar.appearance().barTintColor = #colorLiteral(red: 0.09240212291, green: 0.8810169101, blue: 0.7510151267, alpha: 1)
         
-//        UINavigationBar.largeTitlesDisplayMode = .always
-//        // largeTitlesTextAttributes を使ってカスタマイズ
-//        UInavigationBar.largeTitlesTextAttributes =
-//            [NSAttributedStringKey.foregroundColor : UIColor.white,
-//             NSAttributedStringKey.font : UIFont(name: "AmericanTypewriter-Bold", size: 30)!]
-
         UITabBar.appearance().unselectedItemTintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         UITabBar.appearance().tintColor = #colorLiteral(red: 0.08086351305, green: 0.165294081, blue: 0.2608318627, alpha: 1)
         
@@ -33,8 +27,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let login = UIStoryboard(name: "Login", bundle: nil)
             self.window?.rootViewController = login.instantiateInitialViewController()
         }
-        
-//        UINavigationBar.title.appearance().textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         return true
     }
     
