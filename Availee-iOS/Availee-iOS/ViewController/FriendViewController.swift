@@ -33,6 +33,7 @@ extension FriendViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "friend", for: indexPath) as! AccountTableViewCell
         cell.userNameLabel.text = model.users?[indexPath.row].name ?? ""
+        cell.iconImageView.image = UIImage(named: model.users?[indexPath.row].icon ?? "")
         return cell
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

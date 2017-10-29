@@ -13,14 +13,14 @@ import EventKit
 class CalendarModel {
     var events: Results<Event>?
     var allStartDates: [Date]?
-    var calendarPost: CalendarPost?
+//    var calendarPost: CalendarPost?
     
     private let eventStore = EKEventStore()
     
     init() {
         let realm = try! Realm()
         self.events = realm.objects(Event.self)
-        calendarPost = CalendarPost(events: self.events!)
+//        calendarPost = CalendarPost(events: self.events!)
     }
     
     func calcAvailableSchedule(){

@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //             NSAttributedStringKey.font : UIFont(name: "AmericanTypewriter-Bold", size: 30)!]
 
         
-        UITabBar.appearance().tintColor = #colorLiteral(red: 0.08086351305, green: 0.165294081, blue: 0.2608318627, alpha: 1)
+        UITabBar.appearance().tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
 //        let nomalAttributes = [NSFontAttributeName: fontFamily, NSForegroundColorAttributeName: UIColor.whiteColor()]
 //
 ////        let normalAttributes: NSDictionary! = [NSForegroundColorAttributeName: normalColor]
