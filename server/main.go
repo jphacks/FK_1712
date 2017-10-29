@@ -8,7 +8,7 @@ import (
 func main() {
 	router := gin.Default()
 
-	router.POST("/users", controller.InsertUser)
+	router.POST("/users/:name", controller.InsertUser)
 	router.POST("/friends", controller.InsertFriend)
 	router.POST("/matching", controller.FindMatching)
 

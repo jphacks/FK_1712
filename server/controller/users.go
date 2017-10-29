@@ -15,8 +15,17 @@ import (
 )
 
 func InsertUser(c *gin.Context) {
-	u := new(model.UsersJSON)
-	c.BindJSON(u)
+//	u := new(model.UsersJSON)
+//	c.BindJSON(u)
+	name := c.Param("name")
+
+	/*
+	file, _ := c.FormFile("file")
+	fmt.Println(file.Filename)
+  if err != nil {
+      panic(err)
+  }
+	*/
 
   img, err := imageupload.Process(c.Request, "file")
   if err != nil {
@@ -27,9 +36,11 @@ func InsertUser(c *gin.Context) {
       panic(err)
   }
   h := sha1.Sum(thumb.Data)
-  thumb.Save(fmt.Sprintf("files/%s_%x.png", time.Now().Format("20060102150405"), h[:4]))
 
-	db.Sess.InsertInto("users").Columns("name", "icon").Values(u.Name, u.Icon).Exec()
+	icon := fmt.Sprintf("files/%s_%x.png", time.Now().Format("20060102150405"), h[:4])
+  thumb.Save(icon)
+
+	db.Sess.InsertInto("users").Columns("name", "icon").Values(name, icon).Exec()
 
 	c.Status(http.StatusNoContent)
 }
