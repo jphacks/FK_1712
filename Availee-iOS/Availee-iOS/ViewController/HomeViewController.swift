@@ -69,21 +69,17 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
             let ret = (retInterval/86400) + 1
             return Int(floor(ret))
         }
-        //timeintervalの計算
-        func getIntervalTimes(date:Date, anotherDay:Date) -> Int {
-            var retInterval:Double!
+        //timeintervalの計算       
+        func getIntervalTimes(date: Date, anotherDay: Date) -> Int {
+            var retInterval: Double!
             let format = DateFormatter()
-            format.dateFormat = "HH:mm"
-            let daysString:(String, String) = (format.string(from: date) , format.string(from: anotherDay))
+            format.dateFormat = "MM/DD HH:mm"
+            let daysString: (String, String) = (format.string(from: date), format.string(from: anotherDay))
             let dates: (Date, Date) = (format.date(from: daysString.0)!, format.date(from: daysString.1)!)
             retInterval = dates.0.timeIntervalSince(dates.1)
             let ret = retInterval/3600
             return Int(floor(ret))
         }
-        
-//        func getIntervalTimes(date: Date, anotherDay: Date) -> Int {
-//            let format = Date
-//        }
         
 //        DateFormatterをつかう
         if matchings[indexPath.row].isDate {
