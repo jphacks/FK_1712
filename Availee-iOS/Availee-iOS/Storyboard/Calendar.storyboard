@@ -68,7 +68,7 @@
                         <viewLayoutGuide key="safeArea" id="8fe-MU-cGw"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendar" image="CalenderIcon" id="5iq-MM-5n9"/>
-                    <navigationItem key="navigationItem" id="70y-sh-F91">
+                    <navigationItem key="navigationItem" title="Calendar" id="70y-sh-F91">
                         <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="119-Nz-v7q"/>
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
