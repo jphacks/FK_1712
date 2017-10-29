@@ -14,8 +14,8 @@ enum Router: URLRequestConvertible {
     case registerUser(params: Parameters)
     case getUser(params: Parameters)
     
-    static let baseURL = "http://192.168.100.93:3000"
-    static let suffix = "/api/v1"
+    static let baseURL = "http://172.16.30.63:8080"
+    static let suffix = ""
     
     var method: HTTPMethod {
         switch self {

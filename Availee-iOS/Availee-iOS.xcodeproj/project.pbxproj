@@ -29,6 +29,9 @@
 		A4B3C0151FA46A0A00F2C772 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0141FA46A0A00F2C772 /* CalendarModel.swift */; };
 		A4B3C0191FA52B5A00F2C772 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0181FA52B5900F2C772 /* Router.swift */; };
 		A4B3C01B1FA55BA900F2C772 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B3C01A1FA55BA900F2C772 /* Login.storyboard */; };
+		A4B3C0211FA56FD200F2C772 /* FreeTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0201FA56FD200F2C772 /* FreeTime.swift */; };
+		A4B3C0251FA57D6400F2C772 /* FreeDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0241FA57D6400F2C772 /* FreeDate.swift */; };
+		A4B3C0271FA57F2700F2C772 /* CalendarPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0261FA57F2700F2C772 /* CalendarPost.swift */; };
 		A4D4A2E21FA4106100DB60CD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E11FA4106100DB60CD /* Home.storyboard */; };
 		A4D4A2E41FA4106A00DB60CD /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */; };
 		A4D4A2E61FA4108600DB60CD /* Friend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E51FA4108600DB60CD /* Friend.storyboard */; };
@@ -97,6 +100,9 @@
 		A4B3C0141FA46A0A00F2C772 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
 		A4B3C0181FA52B5900F2C772 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		A4B3C01A1FA55BA900F2C772 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		A4B3C0201FA56FD200F2C772 /* FreeTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FreeTime.swift; path = "/Users/Kazuma/Desktop/FK_1712/Availee-iOS/Availee-iOS/Model/Entity/FreeTime.swift"; sourceTree = "<absolute>"; };
+		A4B3C0241FA57D6400F2C772 /* FreeDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeDate.swift; sourceTree = "<group>"; };
+		A4B3C0261FA57F2700F2C772 /* CalendarPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPost.swift; sourceTree = "<group>"; };
 		A4D4A2E11FA4106100DB60CD /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
 		A4D4A2E51FA4108600DB60CD /* Friend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friend.storyboard; sourceTree = "<group>"; };
@@ -271,8 +277,11 @@
 			children = (
 				A08E200D1FA57A3200415B1A /* FreeTime.swift */,
 				A4D4A2FA1FA4189600DB60CD /* User.swift */,
+				A4B3C0201FA56FD200F2C772 /* FreeTime.swift */,
+				A4B3C0241FA57D6400F2C772 /* FreeDate.swift */,
 				A08E20051FA4873B00415B1A /* Event.swift */,
 				A4D4A2FE1FA418AB00DB60CD /* Matching.swift */,
+				A4B3C0261FA57F2700F2C772 /* CalendarPost.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -606,6 +615,7 @@
 				A4D4A2F91FA4184B00DB60CD /* LoginViewController.swift in Sources */,
 				A4B3C0151FA46A0A00F2C772 /* CalendarModel.swift in Sources */,
 				A4D4A2F51FA4164E00DB60CD /* FriendViewController.swift in Sources */,
+				A4B3C0271FA57F2700F2C772 /* CalendarPost.swift in Sources */,
 				A08E20081FA49A9300415B1A /* AccountTableViewCell.swift in Sources */,
 				A4D4A2F31FA4164700DB60CD /* CalendarViewController.swift in Sources */,
 				A0FC0C5A1FA42AC1003E5558 /* MatchingTableViewCell.swift in Sources */,
@@ -618,6 +628,7 @@
 				A0FC0C5C1FA453FB003E5558 /* AddFriendViewController.swift in Sources */,
 				A4D4A2FB1FA4189600DB60CD /* User.swift in Sources */,
 				A4D4A2FF1FA418AB00DB60CD /* Matching.swift in Sources */,
+				A4B3C0251FA57D6400F2C772 /* FreeDate.swift in Sources */,
 				A08E20061FA4873C00415B1A /* Event.swift in Sources */,
 				A4B3C0131FA468D900F2C772 /* UserModel.swift in Sources */,
 			);
