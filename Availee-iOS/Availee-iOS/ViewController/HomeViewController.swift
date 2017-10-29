@@ -42,22 +42,13 @@ class HomeViewController: UIViewController {
             realm.add(Matching(id: 6, user_id: 6, start_date: Date(), end_date: twoDaysAfter!, isDate: true), update: true)
 
         }
-        
-        
-        
-        
-        
-        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
-    
-
 }
+
 
 extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -68,25 +59,23 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
             return cell
         }
         //dateintervalの計算
-        func getIntervalDays(date:Date, anotherDay:Date) -> Int {
-            var retInterval:Double!
+        func getIntervalDays(date: Date, anotherDay: Date) -> Int {
+            var retInterval: Double!
             let format = DateFormatter()
             format.dateFormat = "MM/dd"
             let daysString:(String, String) = (format.string(from: date) , format.string(from: anotherDay))
             let dates: (Date, Date) = (format.date(from: daysString.0)!, format.date(from: daysString.1)!)
-            
             retInterval = dates.0.timeIntervalSince(dates.1)
             let ret = (retInterval/86400) + 1
             return Int(floor(ret))
         }
-        //timeintervalの計算
-        func getIntervalTimes(date:Date, anotherDay:Date) -> Int {
-            var retInterval:Double!
+        //timeintervalの計算       
+        func getIntervalTimes(date: Date, anotherDay: Date) -> Int {
+            var retInterval: Double!
             let format = DateFormatter()
-            format.dateFormat = "HH:mm"
-            let daysString:(String, String) = (format.string(from: date) , format.string(from: anotherDay))
+            format.dateFormat = "MM/DD HH:mm"
+            let daysString: (String, String) = (format.string(from: date), format.string(from: anotherDay))
             let dates: (Date, Date) = (format.date(from: daysString.0)!, format.date(from: daysString.1)!)
-            
             retInterval = dates.0.timeIntervalSince(dates.1)
             let ret = retInterval/3600
             return Int(floor(ret))
@@ -95,21 +84,25 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
 //        DateFormatterをつかう
         if matchings[indexPath.row].isDate {
             dateFormatter.dateFormat = "MM/dd(EEE)"
-            let start_str = dateFormatter.string(from: matchings[indexPath.row].start_date)
-            let end_str = dateFormatter.string(from: matchings[indexPath.row].end_date)
-            cell.dateLabel.text = start_str + " - " + end_str
-
-            cell.termLabel.text = "\(getIntervalDays(date: matchings[indexPath.row].end_date, anotherDay: matchings[indexPath.row].start_date)) days"
+            let startStr = dateFormatter.string(from: matchings[indexPath.row].start_date)
+            let endStr = dateFormatter.string(from: matchings[indexPath.row].end_date)
+            cell.dateLabel.text = startStr + " - " + endStr
+            
+            let interval = getIntervalDays(date: matchings[indexPath.row].end_date, anotherDay: matchings[indexPath.row].start_date)
+            if interval == 1 {
+                cell.termLabel.text = "1 day"
+            } else {
+                cell.termLabel.text = "\(interval) days"
+            }
             
         } else {
             dateFormatter.dateFormat = "MM/dd(EEE)"
-            let start_str = dateFormatter.string(from: matchings[indexPath.row].start_date)
-            cell.dateLabel.text = start_str
-
+            let startStr = dateFormatter.string(from: matchings[indexPath.row].start_date)
+            cell.dateLabel.text = startStr
             dateFormatter.dateFormat = "HH:mm"
-            let start_term = dateFormatter.string(from: matchings[indexPath.row].start_date)
-            let end_term = dateFormatter.string(from: matchings[indexPath.row].end_date)
-            cell.termLabel.text = start_term + " - " + end_term + " (\(getIntervalTimes(date: matchings[indexPath.row].end_date, anotherDay: matchings[indexPath.row].start_date))h)"
+            let startTerm = dateFormatter.string(from: matchings[indexPath.row].start_date)
+            let endTerm = dateFormatter.string(from: matchings[indexPath.row].end_date)
+            cell.termLabel.text = startTerm + " - " + endTerm + " (\(getIntervalTimes(date: matchings[indexPath.row].end_date, anotherDay: matchings[indexPath.row].start_date))h)"
         }
         
         let user = userModel.userForId(user_id: matchings[indexPath.row].user_id)
