@@ -31,10 +31,10 @@
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="day" id="XFk-Hw-WHC">
-                                                <rect key="frame" x="0.0" y="0.0" width="48" height="45"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="53.142857142857146" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                                    <rect key="frame" x="0.0" y="0.0" width="48" height="45"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="53.142857142857146" height="25"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </view>
                                             </collectionViewCell>
@@ -68,7 +68,7 @@
                         <viewLayoutGuide key="safeArea" id="8fe-MU-cGw"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendar" image="CalenderIcon" id="5iq-MM-5n9"/>
-                    <navigationItem key="navigationItem" id="70y-sh-F91">
+                    <navigationItem key="navigationItem" title="Calendar" id="70y-sh-F91">
                         <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="119-Nz-v7q"/>
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
