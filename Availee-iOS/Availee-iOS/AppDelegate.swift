@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         UINavigationBar.appearance().barTintColor = #colorLiteral(red: 0.09240212291, green: 0.8810169101, blue: 0.7510151267, alpha: 1)
         
-        if isRegisterd(){
+        if isRegisterd() {
             let main = UIStoryboard(name: "Main", bundle: nil)
             self.window?.rootViewController = main.instantiateInitialViewController()
         } else {

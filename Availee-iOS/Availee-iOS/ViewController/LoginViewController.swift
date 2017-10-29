@@ -58,9 +58,11 @@ class LoginViewController: UIViewController {
     private func save(){
         let userDefaults = UserDefaults.standard
         userDefaults.set(nameTextField.text!, forKey: "name")
+        userDefaults.synchronize()
         guard let image = IconImageView.image else { return }
         let imageData = UIImagePNGRepresentation(image)
         userDefaults.set(imageData!, forKey: "icon")
+        userDefaults.synchronize()
     }
 
 }
