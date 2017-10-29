@@ -60,8 +60,14 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
 //        DateFormatterをつかう
         if matchings[indexPath.row].isDate {
             // いい感じに計算する予定
-            cell.dateLabel.text = "\(matchings[indexPath.row].start_date) + \(matchings[indexPath.row].end_date)"
+            let dateFormatter = DateFormatter() //matchings[indexPath.row].start_date
+            dateFormatter.dateFormat = "MM/dd(EEE)"
+            let start_str = dateFormatter.string(from: matchings[indexPath.row].start_date)
+            let end_str = dateFormatter.string(from: matchings[indexPath.row].end_date)
+            cell.dateLabel.text = start_str + "-" + end_str
+            
             cell.termLabel.text = "3days"
+            
         } else {
             // いい感じに計算する予定
             cell.dateLabel.text = "\(matchings[indexPath.row].start_date)"
