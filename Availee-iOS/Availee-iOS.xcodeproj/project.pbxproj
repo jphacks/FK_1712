@@ -10,6 +10,7 @@
 		A08E20061FA4873C00415B1A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E20051FA4873B00415B1A /* Event.swift */; };
 		A08E20081FA49A9300415B1A /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E20071FA49A9300415B1A /* AccountTableViewCell.swift */; };
 		A08E200C1FA4CBAA00415B1A /* MatchingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E200B1FA4CBAA00415B1A /* MatchingModel.swift */; };
+		A08E200E1FA57A3200415B1A /* FreeTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E200D1FA57A3200415B1A /* FreeTime.swift */; };
 		A0FC0C5A1FA42AC1003E5558 /* MatchingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FC0C591FA42AC1003E5558 /* MatchingTableViewCell.swift */; };
 		A0FC0C5C1FA453FB003E5558 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FC0C5B1FA453FB003E5558 /* AddFriendViewController.swift */; };
 		A49033A51FA40AC2007EA206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49033A41FA40AC2007EA206 /* AppDelegate.swift */; };
@@ -22,7 +23,6 @@
 		A4B3C0151FA46A0A00F2C772 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0141FA46A0A00F2C772 /* CalendarModel.swift */; };
 		A4B3C0191FA52B5A00F2C772 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0181FA52B5900F2C772 /* Router.swift */; };
 		A4B3C01B1FA55BA900F2C772 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B3C01A1FA55BA900F2C772 /* Login.storyboard */; };
-		A4B3C0211FA56FD200F2C772 /* FreeTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0201FA56FD200F2C772 /* FreeTime.swift */; };
 		A4D4A2E21FA4106100DB60CD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E11FA4106100DB60CD /* Home.storyboard */; };
 		A4D4A2E41FA4106A00DB60CD /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */; };
 		A4D4A2E61FA4108600DB60CD /* Friend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E51FA4108600DB60CD /* Friend.storyboard */; };
@@ -66,6 +66,7 @@
 		A08E20051FA4873B00415B1A /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		A08E20071FA49A9300415B1A /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountTableViewCell.swift; path = "Availee-iOS/Model/Entity/AccountTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		A08E200B1FA4CBAA00415B1A /* MatchingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingModel.swift; sourceTree = "<group>"; };
+		A08E200D1FA57A3200415B1A /* FreeTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeTime.swift; sourceTree = "<group>"; };
 		A0FC0C591FA42AC1003E5558 /* MatchingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MatchingTableViewCell.swift; path = "Availee-iOS/MatchingTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		A0FC0C5B1FA453FB003E5558 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
 		A49033A11FA40AC2007EA206 /* Availee-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Availee-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,7 +85,6 @@
 		A4B3C0141FA46A0A00F2C772 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
 		A4B3C0181FA52B5900F2C772 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		A4B3C01A1FA55BA900F2C772 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		A4B3C0201FA56FD200F2C772 /* FreeTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FreeTime.swift; path = "/Users/Kazuma/Desktop/FK_1712/Availee-iOS/Availee-iOS/Model/Entity/FreeTime.swift"; sourceTree = "<absolute>"; };
 		A4D4A2E11FA4106100DB60CD /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
 		A4D4A2E51FA4108600DB60CD /* Friend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friend.storyboard; sourceTree = "<group>"; };
@@ -257,8 +257,8 @@
 		A4D4A2EE1FA4160300DB60CD /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				A08E200D1FA57A3200415B1A /* FreeTime.swift */,
 				A4D4A2FA1FA4189600DB60CD /* User.swift */,
-				A4B3C0201FA56FD200F2C772 /* FreeTime.swift */,
 				A08E20051FA4873B00415B1A /* Event.swift */,
 				A4D4A2FE1FA418AB00DB60CD /* Matching.swift */,
 			);
@@ -432,7 +432,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		47ADDC6005BFF859391E20B9 /* [CP] Copy Pods Resources */ = {
@@ -521,7 +521,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A67BFBCA8231FE710E312004 /* [CP] Copy Pods Resources */ = {
@@ -554,7 +554,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		F4CD3A9B82D3CC9D4FDBD739 /* [CP] Copy Pods Resources */ = {
@@ -586,7 +586,7 @@
 				A4D4A2F31FA4164700DB60CD /* CalendarViewController.swift in Sources */,
 				A0FC0C5A1FA42AC1003E5558 /* MatchingTableViewCell.swift in Sources */,
 				A49033A51FA40AC2007EA206 /* AppDelegate.swift in Sources */,
-				A4B3C0211FA56FD200F2C772 /* FreeTime.swift in Sources */,
+				A08E200E1FA57A3200415B1A /* FreeTime.swift in Sources */,
 				A4D4A2F11FA4163900DB60CD /* HomeViewController.swift in Sources */,
 				A4B3C0191FA52B5A00F2C772 /* Router.swift in Sources */,
 				A4D4A2F71FA4165400DB60CD /* MessageViewController.swift in Sources */,
