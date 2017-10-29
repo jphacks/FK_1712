@@ -53,24 +53,24 @@ class HomeViewController: UIViewController {
 extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "matching", for: indexPath) as! MatchingTableViewCell
-        
+        let dateFormatter = DateFormatter()
+
         guard let matchings = model.matchings else {
             return cell
         }
 //        DateFormatterをつかう
         if matchings[indexPath.row].isDate {
-            // いい感じに計算する予定
-            let dateFormatter = DateFormatter() //matchings[indexPath.row].start_date
             dateFormatter.dateFormat = "MM/dd(EEE)"
             let start_str = dateFormatter.string(from: matchings[indexPath.row].start_date)
             let end_str = dateFormatter.string(from: matchings[indexPath.row].end_date)
             cell.dateLabel.text = start_str + "-" + end_str
-            
+            // いい感じに計算する
             cell.termLabel.text = "3days"
-            
         } else {
-            // いい感じに計算する予定
-            cell.dateLabel.text = "\(matchings[indexPath.row].start_date)"
+            dateFormatter.dateFormat = "MM/dd(EEE)"
+            let start_str = dateFormatter.string(from: matchings[indexPath.row].start_date)
+            cell.dateLabel.text = start_str
+            // いい感じに計算する
             cell.termLabel.text = "\(matchings[indexPath.row].start_date) + \(matchings[indexPath.row].end_date)"
         }
         let user = userModel.userForId(user_id: matchings[indexPath.row].user_id)
