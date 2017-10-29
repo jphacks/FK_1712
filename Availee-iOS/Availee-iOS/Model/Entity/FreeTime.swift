@@ -13,6 +13,7 @@ struct FreeTime: Codable{
     
     init(start: Date, end: Date) {
         let format = DateFormatter()
+        format.dateStyle = .medium
         format.timeStyle = .long
         format.locale = Locale(identifier: "ja_JP")
         self.startDate = format.string(from: start)
