@@ -21,7 +21,8 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func register(_ sender: Any) {
-        
+        save()
+        performSegue(withIdentifier: "registered", sender: nil)
     }
     
     
@@ -33,8 +34,14 @@ class LoginViewController: UIViewController {
         IconImageView.layer.cornerRadius = IconImageView.frame.size.width / 2
         IconImageView.layer.masksToBounds = true
 
+        
         // Do any additional setup after loading the view.
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -48,6 +55,13 @@ class LoginViewController: UIViewController {
         return config
     }
     
+    private func save(){
+        let userDefaults = UserDefaults.standard
+        userDefaults.set(nameTextField.text!, forKey: "name")
+        guard let image = IconImageView.image else { return }
+        let imageData = UIImagePNGRepresentation(image)
+        userDefaults.set(imageData!, forKey: "icon")
+    }
 
 }
 

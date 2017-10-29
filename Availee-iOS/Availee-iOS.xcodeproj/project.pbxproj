@@ -21,6 +21,7 @@
 		A4B3C0131FA468D900F2C772 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0121FA468D900F2C772 /* UserModel.swift */; };
 		A4B3C0151FA46A0A00F2C772 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0141FA46A0A00F2C772 /* CalendarModel.swift */; };
 		A4B3C0191FA52B5A00F2C772 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0181FA52B5900F2C772 /* Router.swift */; };
+		A4B3C01B1FA55BA900F2C772 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B3C01A1FA55BA900F2C772 /* Login.storyboard */; };
 		A4D4A2E21FA4106100DB60CD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E11FA4106100DB60CD /* Home.storyboard */; };
 		A4D4A2E41FA4106A00DB60CD /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */; };
 		A4D4A2E61FA4108600DB60CD /* Friend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E51FA4108600DB60CD /* Friend.storyboard */; };
@@ -81,6 +82,7 @@
 		A4B3C0121FA468D900F2C772 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		A4B3C0141FA46A0A00F2C772 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
 		A4B3C0181FA52B5900F2C772 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A4B3C01A1FA55BA900F2C772 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		A4D4A2E11FA4106100DB60CD /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
 		A4D4A2E51FA4108600DB60CD /* Friend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friend.storyboard; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 		A4D4A2EA1FA4115E00DB60CD /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				A4B3C01A1FA55BA900F2C772 /* Login.storyboard */,
 				A49033A81FA40AC2007EA206 /* Main.storyboard */,
 				A4D4A2E11FA4106100DB60CD /* Home.storyboard */,
 				A4D4A2E31FA4106A00DB60CD /* Calendar.storyboard */,
@@ -383,6 +386,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B3C01B1FA55BA900F2C772 /* Login.storyboard in Resources */,
 				A4D4A2E41FA4106A00DB60CD /* Calendar.storyboard in Resources */,
 				A4D4A2E21FA4106100DB60CD /* Home.storyboard in Resources */,
 				A4D4A2E61FA4108600DB60CD /* Friend.storyboard in Resources */,
