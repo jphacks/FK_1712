@@ -29,7 +29,6 @@
 		A4B3C0151FA46A0A00F2C772 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0141FA46A0A00F2C772 /* CalendarModel.swift */; };
 		A4B3C0191FA52B5A00F2C772 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0181FA52B5900F2C772 /* Router.swift */; };
 		A4B3C01B1FA55BA900F2C772 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B3C01A1FA55BA900F2C772 /* Login.storyboard */; };
-		A4B3C0211FA56FD200F2C772 /* FreeTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0201FA56FD200F2C772 /* FreeTime.swift */; };
 		A4B3C0251FA57D6400F2C772 /* FreeDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0241FA57D6400F2C772 /* FreeDate.swift */; };
 		A4B3C0271FA57F2700F2C772 /* CalendarPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3C0261FA57F2700F2C772 /* CalendarPost.swift */; };
 		A4D4A2E21FA4106100DB60CD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4A2E11FA4106100DB60CD /* Home.storyboard */; };
@@ -465,7 +464,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		47ADDC6005BFF859391E20B9 /* [CP] Copy Pods Resources */ = {
@@ -554,7 +553,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A67BFBCA8231FE710E312004 /* [CP] Copy Pods Resources */ = {
@@ -587,7 +586,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F4CD3A9B82D3CC9D4FDBD739 /* [CP] Copy Pods Resources */ = {
